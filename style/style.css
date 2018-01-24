@@ -1,0 +1,109 @@
+* {
+  margin:0; padding:0;
+  font-size:inherit;
+  color:inherit;
+  -webkit-font-smoothing: antialiased;
+}
+button::-moz-focus-inner {padding:0;border:0;}
+a {outline:none;
+  text-decoration:none;
+  background-color:transparent;
+  font-size:11px;
+  color:#2d2a2b ;
+}
+img {border:none;}
+html {height: 100%;}
+
+
+
+body {
+height: auto !important;
+min-height: 100%;
+position: relative;
+background: #ffffff ;
+font-size:13px;
+color:#575757 ;
+    font-family: 'PT Sans', sans-serif;
+}
+/* .container {
+    width: 100%;
+    margin: auto;
+} */
+h1, h2, h3, h4, h5 {
+    font-weight: 700;
+    color: #000;
+}
+h2 {
+    font-size: 32px;
+}
+h3 {
+
+    font-weight: 400;
+}
+
+h4 {
+    text-align: center;
+}
+
+p {
+    font-size: 16px;
+}
+
+ul, li {
+    display: block;
+    padding: 0;
+    margin: 0;
+}
+                /*HEADER*/
+.header {
+    background-color: #fcdb00;
+    color: #010101;
+    padding-top: 58px;
+}
+.offer {
+    margin-top: 133px;
+}
+.offer p {
+    margin-top: 27px;
+}
+h1.offer__title {
+    margin-bottom: 27px;
+}
+.menu {
+    margin-top: 8px;
+}
+.menu__items {
+    margin-right: 65px;
+}
+.menu__items a {
+    font-size: 22px;
+    font-weight: 700;
+    color: #000;
+}
+.menu__items a:hover {
+    font-size: 23px;
+    color: #FF652C;
+    text-decoration: none;
+    transition: 0.3s ease;
+}
+                /*Content*/
+.fa-apple, .fa-android, .fa-windows {
+    font-size: 42px;
+    color: black;
+}
+li.icon__items a:hover .fa{
+    color: #FF652C;
+    transition: 0.3s ease;
+
+}
+li.icon__items a {
+    margin-left: 36px;
+}
+
+li.icon__items {
+    margin-top: 37px;
+}
+
+.ipad__item {
+    margin:70px 0 110px 37px;
+}
