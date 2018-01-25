@@ -1,28 +1,6 @@
-* {
-  margin:0; padding:0;
-  font-size:inherit;
-  color:inherit;
-  -webkit-font-smoothing: antialiased;
-}
-button::-moz-focus-inner {padding:0;border:0;}
-a {outline:none;
-  text-decoration:none;
-  background-color:transparent;
-  font-size:11px;
-  color:#2d2a2b ;
-}
-img {border:none;}
-html {height: 100%;}
-
 
 
 body {
-height: auto !important;
-min-height: 100%;
-position: relative;
-background: #ffffff ;
-font-size:13px;
-color:#575757 ;
     font-family: 'PT Sans', sans-serif;
 }
 .container {
@@ -33,20 +11,10 @@ h1, h2, h3, h4, h5 {
     font-weight: 700;
     color: #000;
 }
-h2 {
-    font-size: 32px;
-}
-h3 {
-    font-weight: 400;
-}
-
-h4 {
-    text-align: center;
-}
-
-p {
-    font-size: 16px;
-}
+h2 {font-size: 32px;}
+h3 {font-weight: 400;}
+h4 {text-align: center;}
+p {font-size: 16px;}
 
 ul, li {
     display: block;
@@ -225,4 +193,4 @@ button.send__button:hover {
     font-size: 17px;
 }
 
-                    /*/FOTER*/
+                    /*/FOTER**/
